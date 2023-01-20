@@ -1,0 +1,148 @@
+body{
+    font-family: Montserrat;
+}
+#title{
+    background-color :#ff4c68;
+    color :#fff;
+}
+.container-fluid{
+    padding: 5% 25% 8% ;
+}
+h1{
+    font-family: Montserrat;
+   font-size : 10rem;
+   line-height :1.5;
+}
+.navbar{
+    padding:5rem;
+
+}
+.navbar-brand{
+    font-family:ubuntu;
+    font-size:3erm;
+    font-weight: bolder;
+}
+.nav-item{
+    padding:0 2rem;
+    font-size:2rem;
+}
+.row{
+    padding:4rem;
+}
+.download-button{
+    margin:8% 6%  6% 0;
+}
+.title-image{
+    transform: rotate(25deg);
+    width:18%;
+   position:absolute;
+   margin-left:10%;
+}
+@media(max-width:1011px){
+    .container-fluid{
+        text-align:center;
+    }
+.title-image{
+    position:static;
+    transform: rotate(0) ;
+}
+
+}
+#features{
+    
+    background-color:#fff;
+    position : relative;
+  
+}
+.feature-box{
+   text-align: center;
+   padding:7%;
+}
+.features-heading{
+    font-family: Montserrat;
+   font-size : 2rem;
+   line-height :1.5;
+
+}
+p{
+    color:#8f8f8f;
+    font-size:1rem;
+    padding:2% ;
+}
+.icon{
+    color:#ef8172;
+    padding:1rem;
+
+}
+.icon:hover{
+    color:#ff4c68;
+}
+/* Testimonila section */
+.carousel-inner{
+ padding:7% 23%;
+ background-color:#ef8172;
+ text-align:center;
+ color:#fff;
+ 
+}
+.testimonials-heading{
+font-size:3rem;
+font-family: Montserrat;
+}
+.testimonial-image{
+   
+    width:20%;
+   border-radius:100%;
+   padding:1rem;
+ 
+}
+/* press section */
+#press {
+    background-color:#ef8172;
+    text-align:center;
+    padding:3% ;
+  
+}
+.press-image{
+    width:17%;
+    padding:20px 20px;
+}
+/* pricing section */
+#pricing{
+   
+    padding:100px;
+    text-align:center;
+}
+.pricing-heading{
+    font-family: Montserrat;
+    font-size:2rem;
+}
+.card-column{
+ padding:2% ;
+}
+/* cta section */
+#cta{
+    background-color:#ff4c68;
+    text-align:center;
+    color:#fff;
+    font-size:2rem;
+}
+   
+.cta-heading{
+    font-family: Montserrat;
+    font-size:5rem;
+    line-height:1.5;
+}
+/* <!-- Footer --> */
+#footer{
+    text-align:center;
+}
+.footer-paragraph{
+    padding-bottom:9% ;
+    line-height:0.5rem;
+    font-size:2rem;
+}
+.footer-icon{
+    padding:4% 1% 1%;
+    font-size:1.5rem;
+}
